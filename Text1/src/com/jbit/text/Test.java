@@ -1,10 +1,21 @@
 package com.jbit.text;
 
+import java.util.Scanner;
+
 public class Test {
 	public static void main(String[] args) {
 		//ä¸»å¹²
+
 		int i=4;
-		//³Âèå
+		//ï¿½ï¿½ï¿½ï¿½
+
+	     int i;
+		
+		Scanner input=new Scanner(System.in);
+		 
+		i=input.nextInt();
+		
+
 		System.out.println(i);
 	}
 }
